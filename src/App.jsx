@@ -10,6 +10,7 @@ import AnimationData from './Lottie/Lottie.json';
 import Lottie from 'react-lottie';
 import Home1 from './components/Home1';
 import Contact from './pages/Contact';
+import Showreel1 from './pages/Showreel1';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -47,7 +48,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />    
-        <Route path="/showreel" element={<Showreel />} />
+        <Route path="/showreel" element={<Showreel1 />} />
         <Route path="/profile" element={<Profile1 />} />
         <Route path="/scroll" element={<ScrollAnimation />} />
         <Route path="/contact" element={<Contact />} />
