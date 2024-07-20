@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import HireMe from './HireMe'
 import Work from './Work'
+import Footer from './Footer'
 
 const Home = () => {
   return (

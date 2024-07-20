@@ -14,7 +14,12 @@ export default {
 
       },
       colors:{
-        customGray: '#626262'
+        customGray: '#626262',
+        footer: '#922232'
+      }
+
+      ,textColor:{
+        footertext: '#D0C2B3'
       }
     },
   },

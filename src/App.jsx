@@ -11,6 +11,7 @@ import Lottie from 'react-lottie';
 import Home1 from './components/Home1';
 import Contact from './pages/Contact';
 import Showreel1 from './pages/Showreel1';
+import Footer from './components/Footer';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -52,7 +53,9 @@ const App = () => {
         <Route path="/profile" element={<Profile1 />} />
         <Route path="/scroll" element={<ScrollAnimation />} />
         <Route path="/contact" element={<Contact />} />
+     
       </Routes>
+      <Footer />
     </div>
   );
 };
