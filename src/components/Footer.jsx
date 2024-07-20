@@ -18,7 +18,7 @@ const Footer = () => {
 
         <div className='flex flex-col items-center sm:flex-row gap-4 sm:gap-0'>
       
-      <div className='flex flex-col w-1/3'>
+      <div className='flex flex-col w-full sm:w-1/3'>
       <p className='font-poppins text-footertext mb-2'>Menu</p>
         <p className='font-poppins text-white cursor-pointer hover:underline hover:uppercase'>Home</p>
         <p className='font-poppins text-white cursor-pointer hover:underline hover:uppercase'>About</p>
@@ -27,7 +27,7 @@ const Footer = () => {
         <p className='font-poppins text-white cursor-pointer hover:underline hover:uppercase'>Contact</p>
       </div>
 
-      <div className='flex flex-col gap-4 w-1/3'>
+      <div className='flex flex-col gap-4 w-full sm:w-1/3'>
 
         <div>
         <p className='font-poppins text-footertext mb-2'>Get in touch</p>
@@ -42,16 +42,16 @@ const Footer = () => {
         </div>
       </div>
 
-     <div className='flex flex-col w-1/3'>
+     <div className='flex flex-col w-full sm:w-1/3'>
         <p className='font-poppins mb-2 text-footertext'>About Binit Btm.</p>
         <p className='font-poppins text-white'>Binit btm is a video editor | graphic designer | web designer Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
 
         <div className='flex mt-4 gap-4 sm:gap-8 flex-col sm:flex-row'>
-                <p className='font-poppins px-4 py-1 cursor-pointer border-[#D0C1B3] rounded-2xl text-footertext border'>Instagram</p>
+                <p className='font-poppins px-4 py-1 cursor-pointer w-44 border-[#D0C1B3] rounded-2xl text-footertext border'>Instagram</p>
 
 
             
-                <p className='font-poppins px-4 py-1 cursor-pointer border-[#D0C1B3] rounded-2xl text-footertext border'>Linkedin</p>
+                <p className='font-poppins px-4 py-1 cursor-pointer w-44 border-[#D0C1B3] rounded-2xl text-footertext border'>Linkedin</p>
 
         </div>
 

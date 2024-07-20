@@ -39,7 +39,7 @@ const App = () => {
       <div className="h-screen flex flex-col items-center justify-center">
         {/* <div className="loading-spinner border-8 border-t-8 border-gray-2   00 border-t-blue-500 rounded-full w-24 h-24 animate-spin"></div> */}
       
-        <Lottie options={animationFunction()} width={500} height={500} />
+        <Lottie options={animationFunction()} width={400} height={500} />
       </div>
     );
   }
