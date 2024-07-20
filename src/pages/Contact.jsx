@@ -1,9 +1,48 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { CiFacebook, CiInstagram, CiMail, CiPhone, CiYoutube } from "react-icons/ci";
 import { Link } from 'react-router-dom';
 import gsap from 'gsap';
+import emailjs from '@emailjs/browser'
+
+
+
 
 const Contact = () => {
+
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  const public_key = 'vwXj3gfN4FyxDyWMM';
+  const templateId = 'template_4rr288p';
+  const serviceId =  'service_ryo6y4s';
+
+  
+
+  const templateParams = {
+    from_name : name,
+    email_id : email,
+    to_name : 'Aayush Code',
+    message: message
+  }
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    
+      emailjs.send(serviceId, templateId, templateParams, public_key).then((resp) =>{
+        console.log('Email sent successfully', resp);
+        setName('');
+        setEmail('');
+        setMessage('');
+      }).catch((err) =>{
+        console.log('Error sending mail', err)
+      })
+     
+  };
+
+
+  
   useEffect(() => {
     gsap.from('.contact-container', { 
       duration: 1.5, 
@@ -67,18 +106,18 @@ const Contact = () => {
           <div className='flex flex-col p-20'>
             <h2 className='font-poppins text-footertext text-3xl'>I'd love to hear from you</h2>
             <p className='font-poppins text-white'>Leave a message below, and I'll get back to you as soon as possible</p>
-            <form className=' flex flex-col gap-4 mt-4'>
+            <form onSubmit={sendEmail} className=' flex flex-col gap-4 mt-4'>
               <div className='flex flex-col w-72 form-item'>
                 <label className='text-footertext' htmlFor="">Name</label>
-                <input className='px-4 w-52 sm:w-96 py-1 placeholder:font-poppins font-poppins border rounded-sm focus:outline-none focus:ring-2 focus:ring-black' type="text" placeholder='First Last' />
+                <input value={name} onChange={(e) => setName(e.target.value)} className='px-4 w-52 sm:w-96 py-1 placeholder:font-poppins font-poppins border rounded-sm focus:outline-none focus:ring-2 focus:ring-black' type="text" placeholder='First Last' />
               </div>
               <div className='flex flex-col w-72 form-item'>
                 <label className='text-footertext' htmlFor="">Email</label>
-                <input className='px-4 w-52 py-1 sm:w-96 placeholder:font-poppins font-poppins border rounded-sm focus:outline-none focus:ring-2 focus:ring-black' type="text" placeholder='Enter your email' />
+                <input value={email} onChange={(e) => setEmail(e.target.value)} className='px-4 w-52 py-1 sm:w-96 placeholder:font-poppins font-poppins border rounded-sm focus:outline-none focus:ring-2 focus:ring-black' type="text" placeholder='Enter your email' />
               </div>
               <div className='flex flex-col w-72 form-item'>
                 <label className='text-footertext' htmlFor="">Message</label>
-                <input className='px-4 w-52 py-1 sm:w-96 placeholder:font-poppins font-poppins border rounded-sm focus:outline-none focus:ring-2 focus:ring-black' type="text" placeholder='Enter your message' />
+                <input value={message} onChange={(e) => setMessage(e.target.value)} className='px-4 w-52 py-1 sm:w-96 placeholder:font-poppins font-poppins border rounded-sm focus:outline-none focus:ring-2 focus:ring-black' type="text" placeholder='Enter your message' />
               </div>
               <button type='submit' className='transform transition-transform duration-300 hover:scale-105 bg-white w-32 mt-3 p-2 text-nowrap text-left form-item'>
                 Send Message
