@@ -1,0 +1,149 @@
+[
+
+    {
+      "projectImage": "/assets/Thumbnail/maxresdefault (1).jpg",
+      "projectDescription": "Description of project 2",
+      "category": "thumbnail"
+    },
+    {
+      "projectImage": "/assets/SocialMedia/SMP (1).jpeg",
+      "projectDescription": "Description of project 3",
+      "category": "socialmedia"
+    },
+    {
+      "projectImage": "/assets/SocialMedia/SMP (1).jpg",
+      "projectDescription": "Description of project 3",
+      "category": "socialmedia"
+    },
+    {
+      "projectImage": "/assets/SocialMedia/SMP (1).png",
+      "projectDescription": "Description of project 3",
+      "category": "socialmedia"
+    },
+    {
+      "projectImage": "/assets/SocialMedia/SMP (2).jpg",
+      "projectDescription": "Description of project 3",
+      "category": "socialmedia"
+    },
+    {
+      "projectImage": "/assets/SocialMedia/SMP (2).png",
+      "projectDescription": "Description of project 3",
+      "category": "socialmedia"
+    },
+    {
+      "projectImage": "/assets/SocialMedia/SMP (3).jpg",
+      "projectDescription": "Description of project 3",
+      "category": "socialmedia"
+    },
+    {
+      "projectImage": "/assets/SocialMedia/SMP (3).png",
+      "projectDescription": "Description of project 3",
+      "category": "socialmedia"
+    },
+    {
+      "projectImage": "/assets/SocialMedia/SMP (4).jpg",
+      "projectDescription": "Description of project 3",
+      "category": "socialmedia"
+    },
+    {
+      "projectImage": "/assets/SocialMedia/SMP (4).png",
+      "projectDescription": "Description of project 3",
+      "category": "socialmedia"
+    },
+    {
+      "projectImage": "/assets/SocialMedia/SMP (5).jpg",
+      "projectDescription": "Description of project 3",
+      "category": "socialmedia"
+    },
+    {
+      "projectImage": "/assets/SocialMedia/SMP (5).png",
+      "projectDescription": "Description of project 3",
+      "category": "socialmedia"
+    },
+    {
+      "projectImage": "/assets/SocialMedia/SMP (6).jpg",
+      "projectDescription": "Description of project 3",
+      "category": "socialmedia"
+    },
+    {
+      "projectImage": "/assets/SocialMedia/SMP (6).png",
+      "projectDescription": "Description of project 3",
+      "category": "socialmedia"
+    },
+    {
+      "projectImage": "/assets/SocialMedia/SMP (7).jpg",
+      "projectDescription": "Description of project 3",
+      "category": "socialmedia"
+    },
+    {
+      "projectImage": "/assets/SocialMedia/SMP (5).png",
+      "projectDescription": "Description of project 3",
+      "category": "socialmedia"
+    },
+    {
+      "projectImage": "/assets/SocialMedia/SMP (8).png",
+      "projectDescription": "Description of project 3",
+      "category": "socialmedia"
+    },
+    {
+      "projectImage": "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg",
+      "projectDescription": "Description of project 4",
+      "category": "logo"
+    },
+    {
+      "projectImage": "/assets/Thumbnail/maxresdefault (2).jpg",
+      "projectDescription": "Description of project 5",
+      "category": "thumbnail"
+    },
+    {
+      "projectImage": "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg",
+      "projectDescription": "Description of project 7",
+      "category": "socialmedia"
+    },
+    {
+      "projectImage": "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg",
+      "projectDescription": "Description of project 8",
+      "category": "logo"
+    },
+    {
+      "projectImage": "/assets/Thumbnail/maxresdefault.jpg",
+      "projectDescription": "Description of project 9",
+      "category": "thumbnail"
+    },
+    {
+      "projectImage": "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg",
+      "projectDescription": "Description of project 11",
+      "category": "socialmedia"
+    },
+    {
+      "projectImage": "image_url_12",
+      "projectDescription": "Description of project 12",
+      "category": "logo"
+    },
+    {
+      "projectImage": "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg",
+      "projectDescription": "Description of project 15",
+      "category": "socialmedia"
+    },
+    {
+      "projectImage": "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg",
+      "projectDescription": "Description of project 16",
+      "category": "logo"
+    },
+    {
+      "projectImage": "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg",
+      "projectDescription": "Description of project 18",
+      "category": "youtubevideo"
+    },
+    {
+      "projectImage": "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg",
+      "projectDescription": "Description of project 19",
+      "category": "socialmedia"
+    },
+    {
+      "projectImage": "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg",
+      "projectDescription": "Description of project 20",
+      "category": "logo"
+    }
+  ]
+  
