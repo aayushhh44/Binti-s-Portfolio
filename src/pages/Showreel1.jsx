@@ -97,10 +97,10 @@ const Showreel1 = () => {
         <div className="bg-gray-900 min-h-screen">
           <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
             <div className="text-center">
-              <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+              <h2 className="text-3xl font-poppins font-bold tracking-tight text-white sm:text-4xl">
                 Explore My Showreel
               </h2>
-              <p className="mt-3 max-w-2xl mx-auto text-lg text-gray-300 sm:text-xl">
+              <p className="mt-3 max-w-2xl mx-auto text-lg font-poppins text-gray-300 sm:text-xl">
                 Check out some of my latest work and projects in motion design,
                 videography, and more. Each video showcases my skills and creativity
                 in delivering high-quality visual content.

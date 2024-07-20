@@ -41,19 +41,19 @@ const Profile1 = () => {
 
     gsap.fromTo(
       ".animate-p",
-      { scale: 1, x:0 },
+      { y: 0 }, // Start at the original position
       {
-        scale: 2,
-        x:600,
+        y: -200, // Move up by 600 units
         scrollTrigger: {
           trigger: ".animate-p",
-          start: "top center",
-          end: "bottom center",
-          scrub: 2,
-          // markers: true // Remove markers for production
+          start: "top center", // Start animation when the top of the trigger hits the center of the viewport
+          end: "bottom center", // End animation when the bottom of the trigger hits the center of the viewport
+          scrub: 2, // Sync animation progress with scroll position
+          // markers: true // Uncomment this to see markers for debugging
         }
       }
     );
+    
   }, []);
 
   return (

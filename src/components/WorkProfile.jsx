@@ -68,12 +68,12 @@ const WorkProfile = () => {
       </div>
 
 
-      <div className="grid p-6 grid-cols-2 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
 
       {filteredProject.map((project, index) => (
           <div key={index}>
             <img
-              className="h-44 w-full rounded-lg sm:w-full sm:h-96"
+              className="h-44 w-full rounded-sm p-1 sm:w-full sm:h-96"
               src={project.projectImage}
               alt={project.projectDescription}
             />
